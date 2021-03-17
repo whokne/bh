@@ -1,0 +1,13 @@
+Step1: Put x =0, y =r in equation 2
+            We have p=1-r
+
+Step2: Repeat steps while x ≤ y
+            Plot (x, y)
+            If (p<0)
+Then set p = p + 2x + 3
+Else
+            p = p + 2(x-y)+5
+            y =y - 1 (end if)
+            x =x+1 (end loop)
+
+Step3: End

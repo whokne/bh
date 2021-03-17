@@ -1,0 +1,5 @@
+Parametric Curves
+Curves having parametric form are called parametric curves. The explicit and implicit curve representations can be used only when the function is known. In practice the parametric curves are used. A two-dimensional parametric curve has the following form −
+
+Pt = ft, gt or Pt = xt, yt
+The functions f and g become the x,y coordinates of any point on the curve, and the points are obtained when the parameter t is varied over a certain interval [a, b], normally [0, 1].

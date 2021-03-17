@@ -1,0 +1,11 @@
+	Area Fill Algorithim
+
+step 1: Find out the Ymin and Ymax from the given polygon
+
+step 2: Scan line intersect with each of the poygon from Ymin to Ymax. Name each intersection point of polygon.
+
+step 3: Sort the intersection point in the increasing order of x-coordinates i.e. 
+	(P0,P1), (P1,P2), and (P2,P3).
+
+step 4: fill all these pair of coordinates that are inside polygon and ignore the alternate p,q,r,s.
+

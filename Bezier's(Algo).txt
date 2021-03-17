@@ -1,0 +1,8 @@
+The algorithm for 4 points:	(Algorithim for BEZIER'S CURVE)
+
+Connect control points by segments: 1 → 2, 2 → 3, 3 → 4. There will be 3 brown segments.
+For each t in the interval from 0 to 1:
+We take points on these segments on the distance proportional to t from the beginning. These points are connected, so that we have two green segments.
+On these segments we take points proportional to t. We get one blue segment.
+On the blue segment we take a point proportional to t. On the example above it’s red.
+These points together form the curve.

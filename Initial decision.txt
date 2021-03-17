@@ -1,0 +1,8 @@
+Initial decision parameter
+In region 1 the initial value of a decision parameter is obtained by giving starting position = (0,ry).
+
+i.e. p10=ry2+1/4rx2-rx2ry
+
+When we enter into a region 2 the initial position is taken as the last position selected in region 1 and the initial decision parameter in region 2 is then:
+
+p20=ry2(x0+1/2)2+rx2(y0-1)2-rx2ry2
